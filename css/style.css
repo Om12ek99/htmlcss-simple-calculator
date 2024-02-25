@@ -20,3 +20,18 @@ body{
     /*DEBUG*/
     height: 400px;
 }
+
+/*HEADER*/
+header{
+    text-align: center;
+}
+
+/*DISPLAY*/
+.display{
+    font-family: 'Seven Segment', sans-serif;
+    background-color: black;
+    color: #09d297;
+    font-size: 32px;
+    text-align: right;
+    padding: 16px 10px;
+}
