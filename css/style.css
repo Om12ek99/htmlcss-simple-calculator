@@ -44,30 +44,41 @@ header{
     width: 75%;
     display: flex;
     flex-wrap: wrap;
-    background-color: lightcoral;
+    
     align-items: self-start;
     /*debug*/
+    /*background-color: lightcoral;*/
     /*height: 300px;*/
    
 }
 
 .operations{
     width: 25%;
-    background-color: #09d297;
+   
 
     /*debug*/
+    /*background-color: #09d297;*/
     /*height:300px ;*/
 }
 
 .numbers button{
     width: calc(100% / 3 - 10px);
-   margin-right: 10px;
+    margin-right: 10px;
 }
+
+.operations button{
+    width: 100%;
+    background-color: #77A8D0;
+    color: white;
+}
+
 button.zero{
     flex-grow: 1;
 }
 
 button{
+    font-size: 18px;
+    background-color:#BBBBBB ;
     margin-bottom:10px ;
     padding: 15px;
     border-radius: 5px;
@@ -75,4 +86,9 @@ button{
     border-right: 1px solid #eeee;
     border-bottom: 2px solid #898989;
     border-left: 2px solid #898989;
+}
+
+button.orange{
+    background-color: orange;
+    color: white;
 }
