@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+/*common*/
 body{
     font-family: sans-serif;
+}
+
+/* CALCULATOR*/
+.calculator{
+    width: 300px;
+    margin: 50px auto 30px;
+    background-color:#CDCDCD ;
+
+
+    /*DEBUG*/
+    height: 400px;
 }
