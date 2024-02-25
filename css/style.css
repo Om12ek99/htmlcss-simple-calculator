@@ -14,8 +14,8 @@ body{
 .calculator{
     width: 300px;
     margin: 50px auto 30px;
-    background-color:#CDCDCD ;
-
+    background-image: linear-gradient(270deg, #eeee 0%, #CDCDCD 100%);
+    border-radius: 10px;
 
     /*DEBUG*/
     height: 400px;
